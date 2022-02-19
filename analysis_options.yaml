@@ -9,8 +9,6 @@ analyzer:
   errors:
     missing_required_param: error
     missing_return: error
-    parameter_assignments: error
-    todo: ignore
 
 # https://dart-lang.github.io/linter/lints/
 linter:
