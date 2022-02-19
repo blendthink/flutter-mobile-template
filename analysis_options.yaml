@@ -81,13 +81,13 @@ linter: # https://dart-lang.github.io/linter/lints/
     - omit_local_variable_types
     - one_member_abstracts
     - only_throw_errors
-    - package_api_docs # Need to consider https://dart-lang.github.io/linter/lints/package_api_docs.html
+    #- package_api_docs # use as you like
     - parameter_assignments
     - prefer_asserts_in_initializer_lists
-    - prefer_asserts_with_message # Need to consider https://dart-lang.github.io/linter/lints/prefer_asserts_with_message.html
+    #- prefer_asserts_with_message # use as you like
     - prefer_constructors_over_static_methods
     #- prefer_double_quotes # exclude to use prefer_single_quotes
-    - prefer_expression_function_bodies # Need to consider https://dart-lang.github.io/linter/lints/prefer_expression_function_bodies.html
+    #- prefer_expression_function_bodies # use as you like
     - prefer_final_in_for_each
     - prefer_final_locals
     #- prefer_final_parameters # exclude to use avoid_final_parameters
@@ -98,7 +98,7 @@ linter: # https://dart-lang.github.io/linter/lints/
     - prefer_mixin
     - prefer_null_aware_method_calls
     - prefer_single_quotes
-    - public_member_api_docs # Need to consider https://dart-lang.github.io/linter/lints/public_member_api_docs.html
+    #- public_member_api_docs # use as you like
     - require_trailing_commas # experimental
     - sized_box_shrink_expand
     - sort_child_properties_last
@@ -118,7 +118,7 @@ linter: # https://dart-lang.github.io/linter/lints/
     - unnecessary_parenthesis
     - unnecessary_raw_strings
     - use_decorated_box
-    - use_if_null_to_convert_nulls_to_bools # Need to consider https://dart-lang.github.io/linter/lints/use_if_null_to_convert_nulls_to_bools.html
+    #- use_if_null_to_convert_nulls_to_bools # use as you like
     - use_is_even_rather_than_modulo
     - use_late_for_private_fields_and_variables # experimental
     - use_named_constants
