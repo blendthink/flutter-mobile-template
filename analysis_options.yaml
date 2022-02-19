@@ -7,8 +7,8 @@ analyzer:
     implicit-casts: false
     implicit-dynamic: false
   errors:
-    missing_required_param: error
-    missing_return: error
+    missing_required_param: warning
+    missing_return: warning
 
 # https://dart-lang.github.io/linter/lints/
 linter:
