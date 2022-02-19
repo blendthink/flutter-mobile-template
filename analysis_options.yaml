@@ -11,12 +11,6 @@ analyzer:
     missing_return: error
     parameter_assignments: error
     todo: ignore
-  exclude:
-    - "**/*.g.dart"
-    - "**/*.freezed.dart"
-    - "test/.test_coverage.dart"
-    - "bin/cache/**"
-    - "lib/generated_plugin_registrant.dart"
 
 # https://dart-lang.github.io/linter/lints/
 linter:
