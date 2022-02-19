@@ -1,12 +1,12 @@
 include: package:flutter_lints/flutter.yaml
 analyzer:
-  language:
+  language: # https://dart.dev/guides/language/analysis-options#enabling-additional-type-checks
     strict-casts: true
     strict-inference: true
     strict-raw-types: true
   strong-mode:
     implicit-dynamic: false
-  errors:
+  errors: # https://dart.dev/tools/diagnostic-messages
     missing_required_param: warning
     missing_return: warning
 
