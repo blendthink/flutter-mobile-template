@@ -10,14 +10,12 @@ analyzer:
     missing_required_param: warning
     missing_return: warning
 
-# https://dart-lang.github.io/linter/lints/
-linter:
+linter: # https://dart-lang.github.io/linter/lints/
   rules:
     # Error Rules
     - always_use_package_imports
     - avoid_dynamic_calls
-    # This will be obsolete under NNBD
-    #- avoid_returning_null_for_future
+    #- avoid_returning_null_for_future # This will be obsolete under NNBD
     - avoid_slow_async_io
     - avoid_type_to_string
     - cancel_subscriptions
@@ -27,20 +25,18 @@ linter:
     - invariant_booleans # experimental
     - literal_only_boolean_expressions
     - no_adjacent_strings_in_list
-    # use always_use_package_imports
-    #- prefer_relative_imports
+    #- prefer_relative_imports # exclude to use always_use_package_imports
     - test_types_in_equals
     - throw_in_finally
     - unnecessary_statements
     - unsafe_html
-    - use_build_context_synchronously # Need to consider https://dart-lang.github.io/linter/lints/use_build_context_synchronously.html
+    - use_build_context_synchronously # experimental # Need to consider https://dart-lang.github.io/linter/lints/use_build_context_synchronously.html
 
     # Style Rules
     - always_declare_return_types
     - always_put_control_body_on_new_line
     - always_put_required_named_parameters_first
-    # use avoid_types_on_closure_parameters, omit_local_variable_types
-    #- always_specify_types
+    #- always_specify_types # exclude to use avoid_types_on_closure_parameters, omit_local_variable_types
     - avoid_annotating_with_dynamic
     - avoid_bool_literals_in_conditional_expressions
     - avoid_catches_without_on_clauses
@@ -57,8 +53,7 @@ linter:
     - avoid_positional_boolean_parameters
     - avoid_private_typedef_functions
     - avoid_redundant_argument_values
-    # This will be obsolete under NNBD
-    #- avoid_returning_null
+    #- avoid_returning_null # This will be obsolete under NNBD
     - avoid_returning_this
     - avoid_setters_without_getters
     - avoid_types_on_closure_parameters
@@ -69,8 +64,7 @@ linter:
     - conditional_uri_does_not_exist
     - deprecated_consistency
     - directives_ordering
-    # exclude to use --dart-define
-    #- do_not_use_environment
+    #- do_not_use_environment # exclude to use --dart-define
     - eol_at_end_of_file
     - flutter_style_todos
     - join_return_with_assignment
@@ -92,13 +86,11 @@ linter:
     - prefer_asserts_in_initializer_lists
     - prefer_asserts_with_message # Need to consider https://dart-lang.github.io/linter/lints/prefer_asserts_with_message.html
     - prefer_constructors_over_static_methods
-    # use prefer_single_quotes
-    #- prefer_double_quotes
+    #- prefer_double_quotes # exclude to use prefer_single_quotes
     - prefer_expression_function_bodies # Need to consider https://dart-lang.github.io/linter/lints/prefer_expression_function_bodies.html
     - prefer_final_in_for_each
     - prefer_final_locals
-    # use avoid_final_parameters
-    #- prefer_final_parameters
+    #- prefer_final_parameters # exclude to use avoid_final_parameters
     - prefer_foreach
     - prefer_if_elements_to_conditional_expressions
     - prefer_int_literals
@@ -117,8 +109,7 @@ linter:
     - unawaited_futures
     - unnecessary_await_in_return
     - unnecessary_constructor_name
-    # use prefer_final_locals
-    #- unnecessary_final
+    #- unnecessary_final # exclude to use prefer_final_locals
     - unnecessary_lambdas
     - unnecessary_late
     - unnecessary_null_aware_assignments
