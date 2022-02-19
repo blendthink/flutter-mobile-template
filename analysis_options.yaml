@@ -30,7 +30,7 @@ linter: # https://dart-lang.github.io/linter/lints/
     - throw_in_finally
     - unnecessary_statements
     - unsafe_html
-    - use_build_context_synchronously # experimental # Need to consider https://dart-lang.github.io/linter/lints/use_build_context_synchronously.html
+    - use_build_context_synchronously # experimental
 
     # Style Rules
     - always_declare_return_types
