@@ -5,6 +5,30 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "dart",
+            "request": "launch",
+            "name": "dev-debug",
+            "args": [
+                "--dart-define-from-file=flavor/dev.json"
+            ]
+        },
+        {
+            "type": "dart",
+            "request": "launch",
+            "name": "stg-debug",
+            "args": [
+                "--dart-define-from-file=flavor/stg.json"
+            ]
+        },
+        {
+            "type": "dart",
+            "request": "launch",
+            "name": "prd-debug",
+            "args": [
+                "--dart-define-from-file=flavor/prd.json"
+            ]
+        },
+        {
             "type": "bashdb",
             "request": "launch",
             "name": "Bash-Debug (Install Flutter SDK)",
