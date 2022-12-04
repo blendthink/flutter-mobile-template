@@ -1,0 +1,7 @@
+{
+  "flavor": "prd",
+  "appId": "dev.blendthink.template",
+  "appIdSuffix": "",
+  "appName": "Template",
+  "bundleIdentifier": "dev.blendthink.template"
+}

@@ -1,0 +1,7 @@
+{
+  "flavor": "stg",
+  "appId": "dev.blendthink.template",
+  "appIdSuffix": "stg",
+  "appName": "stg-Template",
+  "bundleIdentifier": "dev.blendthink.template.stg"
+}
