@@ -1,16 +1,27 @@
-# flutter_mobile_template
+# Flutter Mobile Template
 
-A new Flutter project.
+This is a template project for Android and iOS apps.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Install
 
-A few resources to get you started if this is your first Flutter project:
+> **Warning**\
+> Use Flutter 3.6.0-10.0.pre.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```shell
+bash scripts/install-flutter.sh
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Setup
+
+#### Visual Studio Code
+
+No configuration is required because `.vscode/settings.json` is defined.
+
+#### Android Studio or IntelliJ IDEA
+
+1. Go to `Preferences > Language & Frameworks > Flutter`.
+2. Change Flutter SDK path. Example: `/absolute-project-path/.flutter/flutter_sdk`
+3. Apply the changes.
+4. Restart Editor to see the new settings applied.
