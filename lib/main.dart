@@ -1,6 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_mobile_template/util/logger.dart';
+import 'package:package_info_plus/package_info_plus.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  final packageInfo = await PackageInfo.fromPlatform();
+  logger.info(packageInfo);
+
   runApp(const MyApp());
 }
 
