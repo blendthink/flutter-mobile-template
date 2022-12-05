@@ -7,7 +7,7 @@ This is a template project for Android and iOS apps.
 ### Install
 
 > **Warning**\
-> Use Flutter 3.6.0-10.0.pre.
+> Use Flutter 3.6.0-1.0.pre.
 
 ```shell
 bash scripts/install-flutter.sh
