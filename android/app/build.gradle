@@ -21,10 +21,6 @@ if (flutterVersionName == null) {
     flutterVersionName = '1.0'
 }
 
-def appId = project.property('appId')
-def appIdSuffix = project.property('appIdSuffix')
-def appName = project.property('appName')
-
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
