@@ -1,7 +1,6 @@
 {
   "flavor": "dev",
-  "appId": "dev.blendthink.template",
-  "appIdSuffix": "dev",
   "appName": "dev-Template",
-  "bundleIdentifier": "dev.blendthink.template.dev"
+  "appId": "dev.blendthink.template",
+  "appIdSuffix": ".dev"
 }
